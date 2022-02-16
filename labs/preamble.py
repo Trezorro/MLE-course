@@ -9,7 +9,7 @@ import os
 from cycler import cycler
 from pprint import pprint
 
-# set_matplotlib_formats('pdf', 'png')
+set_matplotlib_formats('pdf', 'png')
 plt.rcParams['image.cmap'] = "viridis"
 plt.rcParams['image.interpolation'] = "none"
 plt.rcParams['savefig.bbox'] = "tight"
